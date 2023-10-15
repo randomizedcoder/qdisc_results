@@ -1,0 +1,14 @@
+NIC statistics:
+     tx_packets: 43787007
+     rx_packets: 43789929
+     tx_errors: 0
+     rx_errors: 0
+     rx_missed: 37286
+     align_errors: 0
+     tx_single_collisions: 0
+     tx_multi_collisions: 0
+     unicast: 43787410
+     broadcast: 1470
+     multicast: 1049
+     tx_aborted: 0
+     tx_underrun: 0

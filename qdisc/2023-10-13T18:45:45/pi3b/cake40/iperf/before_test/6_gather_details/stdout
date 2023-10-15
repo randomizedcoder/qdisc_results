@@ -1,0 +1,54 @@
+pi3b | CHANGED => {
+    "changed": true,
+    "rc": 0,
+    "stderr": "Shared connection to 172.16.40.51 closed.\r\n",
+    "stderr_lines": [
+        "Shared connection to 172.16.40.51 closed."
+    ],
+    "stdout": "output_folder:/tmp/test_device_pi3b_cake40_before_test_6_gather_details/\r\ndefault_route_interface:enxb827eb7039cb\r\nstart_dir:/home/das\r\nmy_hostname:pi3b\r\ncommand:sudo sh -c 'rm -rf /tmp/test_device_pi3b_cake40_before_test_6_gather_details/'\r\ncommand:sudo sh -c 'mkdir /tmp/test_device_pi3b_cake40_before_test_6_gather_details/'\r\ncommand:sudo sh -c 'cd /tmp/test_device_pi3b_cake40_before_test_6_gather_details/'\r\ncommand:sudo sh -c 'cat /proc/interrupts > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/proc_interrupts'\r\ncommand:sudo sh -c 'cat /proc/net/dev  > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/proc_net_dev'\r\ncommand:sudo sh -c 'netstat --statistics --tcp > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/netstat_statistics'\r\ncommand:sudo sh -c 'ethtool enxb827eb7039cb > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/ethtool_enxb827eb7039cb'\r\ncommand:sudo sh -c 'ethtool --phy-statistics enxb827eb7039cb > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/ethtool_phy_statistics_enxb827eb7039cb'\r\ncommand:sudo sh -c 'ethtool --statistics enxb827eb7039cb > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/ethtool_statistics_enxb827eb7039cb'\r\nno stats available\r\ncommand:sudo sh -c 'ip -statistics link show > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/ip_link_show'\r\ncommand:sudo sh -c 'ip -statistics addr show > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/ip_addr_show'\r\nchown --recursive das:das /tmp/test_device_pi3b_cake40_before_test_6_gather_details/\r\nls -la /tmp/test_device_pi3b_cake40_before_test_6_gather_details/\r\ntotal 28\r\ndrwxr-xr-x  2 das  das   200 Oct 13 21:57 .\r\ndrwxrwxrwt 16 root root  320 Oct 13 21:57 ..\r\n-rw-r--r--  1 das  das  1030 Oct 13 21:57 ethtool_enxb827eb7039cb\r\n-rw-r--r--  1 das  das    42 Oct 13 21:57 ethtool_phy_statistics_enxb827eb7039cb\r\n-rw-r--r--  1 das  das     0 Oct 13 21:57 ethtool_statistics_enxb827eb7039cb\r\n-rw-r--r--  1 das  das  1610 Oct 13 21:57 ip_addr_show\r\n-rw-r--r--  1 das  das  1235 Oct 13 21:57 ip_link_show\r\n-rw-r--r--  1 das  das   682 Oct 13 21:57 netstat_statistics\r\n-rw-r--r--  1 das  das  2001 Oct 13 21:57 proc_interrupts\r\n-rw-r--r--  1 das  das   578 Oct 13 21:57 proc_net_dev\r\n",
+    "stdout_lines": [
+        "output_folder:/tmp/test_device_pi3b_cake40_before_test_6_gather_details/",
+        "default_route_interface:enxb827eb7039cb",
+        "start_dir:/home/das",
+        "my_hostname:pi3b",
+        "command:sudo sh -c 'rm -rf /tmp/test_device_pi3b_cake40_before_test_6_gather_details/'",
+        "command:sudo sh -c 'mkdir /tmp/test_device_pi3b_cake40_before_test_6_gather_details/'",
+        "command:sudo sh -c 'cd /tmp/test_device_pi3b_cake40_before_test_6_gather_details/'",
+        "command:sudo sh -c 'cat /proc/interrupts > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/proc_interrupts'",
+        "command:sudo sh -c 'cat /proc/net/dev  > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/proc_net_dev'",
+        "command:sudo sh -c 'netstat --statistics --tcp > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/netstat_statistics'",
+        "command:sudo sh -c 'ethtool enxb827eb7039cb > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/ethtool_enxb827eb7039cb'",
+        "command:sudo sh -c 'ethtool --phy-statistics enxb827eb7039cb > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/ethtool_phy_statistics_enxb827eb7039cb'",
+        "command:sudo sh -c 'ethtool --statistics enxb827eb7039cb > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/ethtool_statistics_enxb827eb7039cb'",
+        "no stats available",
+        "command:sudo sh -c 'ip -statistics link show > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/ip_link_show'",
+        "command:sudo sh -c 'ip -statistics addr show > /tmp/test_device_pi3b_cake40_before_test_6_gather_details/ip_addr_show'",
+        "chown --recursive das:das /tmp/test_device_pi3b_cake40_before_test_6_gather_details/",
+        "ls -la /tmp/test_device_pi3b_cake40_before_test_6_gather_details/",
+        "total 28",
+        "drwxr-xr-x  2 das  das   200 Oct 13 21:57 .",
+        "drwxrwxrwt 16 root root  320 Oct 13 21:57 ..",
+        "-rw-r--r--  1 das  das  1030 Oct 13 21:57 ethtool_enxb827eb7039cb",
+        "-rw-r--r--  1 das  das    42 Oct 13 21:57 ethtool_phy_statistics_enxb827eb7039cb",
+        "-rw-r--r--  1 das  das     0 Oct 13 21:57 ethtool_statistics_enxb827eb7039cb",
+        "-rw-r--r--  1 das  das  1610 Oct 13 21:57 ip_addr_show",
+        "-rw-r--r--  1 das  das  1235 Oct 13 21:57 ip_link_show",
+        "-rw-r--r--  1 das  das   682 Oct 13 21:57 netstat_statistics",
+        "-rw-r--r--  1 das  das  2001 Oct 13 21:57 proc_interrupts",
+        "-rw-r--r--  1 das  das   578 Oct 13 21:57 proc_net_dev"
+    ]
+}
+receiving incremental file list
+created directory /tmp/qdisc/2023-10-13T18:45:45/pi3b/cake40/iperf/before_test/6_gather_details/test_device_pi3b_cake40_before_test_6_gather_details
+./
+ethtool_enxb827eb7039cb
+ethtool_phy_statistics_enxb827eb7039cb
+ethtool_statistics_enxb827eb7039cb
+ip_addr_show
+ip_link_show
+netstat_statistics
+proc_interrupts
+proc_net_dev
+
+sent 179 bytes  received 2,808 bytes  5,974.00 bytes/sec
+total size is 7,178  speedup is 2.40

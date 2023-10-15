@@ -1,0 +1,11 @@
+------------------------------------------------------------
+Server listening on TCP port 5001 with pid 503918
+Read buffer size:  128 KByte (Dist bin width=16.0 KByte)
+TCP window size:  977 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 172.22.52.10, TCP port 5001 with pid 503918 (20 flows)
+Write buffer size: 131072 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size: -1.00 Byte (default)
+------------------------------------------------------------

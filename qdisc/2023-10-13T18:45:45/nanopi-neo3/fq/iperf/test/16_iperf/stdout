@@ -1,0 +1,103 @@
+------------------------------------------------------------
+Server listening on TCP port 5001 with pid 487770
+Read buffer size:  128 KByte (Dist bin width=16.0 KByte)
+TCP window size:  977 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 172.20.53.10, TCP port 5001 with pid 487770 (20 flows)
+Write buffer size: 131072 Byte
+TOS set to 0x0 (Nagle on)
+TCP window size:  977 KByte (default)
+------------------------------------------------------------
+[SUM-cnt] Interval            Transfer    Bandwidth       Write/Err  Rtry
+[SUM-40] 0.0000-10.0000 sec   374 MBytes   313 Mbits/sec  60305/58834      3006
+[SUM-40] 10.0000-20.0000 sec   348 MBytes   292 Mbits/sec  62989/61582       706
+[SUM-40] 20.0000-30.0000 sec   339 MBytes   284 Mbits/sec  62633/61258       863
+[SUM-40] 30.0000-40.0000 sec   341 MBytes   286 Mbits/sec  61944/60526       937
+[SUM-40] 40.0000-50.0000 sec   339 MBytes   284 Mbits/sec  62732/61336       877
+[SUM-40] 50.0000-60.0000 sec   339 MBytes   284 Mbits/sec  61695/60285       827
+[SUM-40] 60.0000-70.0000 sec   337 MBytes   283 Mbits/sec  63522/62159       825
+[SUM-40] 70.0000-80.0000 sec   339 MBytes   284 Mbits/sec  61959/60550       755
+[SUM-40] 80.0000-90.0000 sec   334 MBytes   280 Mbits/sec  63817/62478       687
+[SUM-40] 90.0000-100.0000 sec   331 MBytes   277 Mbits/sec  62076/60739       736
+[SUM-40] 100.0000-110.0000 sec   330 MBytes   277 Mbits/sec  60708/59346       772
+[SUM-40] 110.0000-120.0000 sec   325 MBytes   273 Mbits/sec  57407/56001       887
+[SUM-40] 120.0000-130.0000 sec   323 MBytes   271 Mbits/sec  62017/60736       816
+[SUM-40] 130.0000-140.0000 sec   328 MBytes   275 Mbits/sec  63137/61840       874
+[SUM-40] 140.0000-150.0000 sec   326 MBytes   273 Mbits/sec  61727/60419       770
+[SUM-40] 150.0000-160.0000 sec   323 MBytes   271 Mbits/sec  59839/58513       702
+[SUM-40] 160.0000-170.0000 sec   321 MBytes   269 Mbits/sec  55631/54219       777
+[SUM-40] 170.0000-180.0000 sec   319 MBytes   267 Mbits/sec  56743/55383       781
+[SUM-40] 180.0000-190.0000 sec   318 MBytes   267 Mbits/sec  57988/56663       815
+[SUM-40] 190.0000-200.0000 sec   320 MBytes   268 Mbits/sec  57615/56266       856
+[SUM-40] 200.0000-210.0000 sec   319 MBytes   268 Mbits/sec  61727/60475       789
+[SUM-40] 210.0000-220.0000 sec   318 MBytes   266 Mbits/sec  58582/57270       730
+[SUM-40] 220.0000-230.0000 sec   312 MBytes   262 Mbits/sec  54851/53493       928
+[SUM-40] 230.0000-240.0000 sec   322 MBytes   270 Mbits/sec  57709/56340       907
+[SUM-40] 240.0000-250.0000 sec   321 MBytes   269 Mbits/sec  57375/56010       733
+[SUM-40] 250.0000-260.0000 sec   313 MBytes   262 Mbits/sec  61230/60022       795
+[SUM-40] 260.0000-270.0000 sec   314 MBytes   264 Mbits/sec  63499/62323       853
+[SUM-40] 270.0000-280.0000 sec   314 MBytes   263 Mbits/sec  59347/58097       823
+[SUM-40] 280.0000-290.0000 sec   322 MBytes   270 Mbits/sec  60259/58944       816
+[SUM-40] 290.0000-300.0000 sec   311 MBytes   261 Mbits/sec  57629/56349       711
+[SUM-40] 300.0000-310.0000 sec   316 MBytes   265 Mbits/sec  58999/57712       842
+[SUM-40] 310.0000-320.0000 sec   310 MBytes   260 Mbits/sec  54570/53227       812
+[SUM-40] 320.0000-330.0000 sec   321 MBytes   269 Mbits/sec  56321/54925       794
+[SUM-40] 330.0000-340.0000 sec   308 MBytes   258 Mbits/sec  56911/55643       821
+[SUM-40] 340.0000-350.0000 sec   314 MBytes   263 Mbits/sec  55761/54419       897
+[SUM-40] 350.0000-360.0000 sec   319 MBytes   268 Mbits/sec  59395/58099       732
+[SUM-40] 360.0000-370.0000 sec   317 MBytes   266 Mbits/sec  60924/59663       844
+[SUM-40] 370.0000-380.0000 sec   310 MBytes   260 Mbits/sec  57538/56268       919
+[SUM-40] 380.0000-390.0000 sec   319 MBytes   267 Mbits/sec  57665/56326       784
+[SUM-40] 390.0000-400.0000 sec   315 MBytes   265 Mbits/sec  58165/56868       688
+[SUM-40] 400.0000-410.0000 sec   311 MBytes   261 Mbits/sec  56539/55247       893
+[SUM-40] 410.0000-420.0000 sec   315 MBytes   265 Mbits/sec  60884/59640       777
+[SUM-40] 420.0000-430.0000 sec   311 MBytes   261 Mbits/sec  58553/57286       802
+[SUM-40] 430.0000-440.0000 sec   312 MBytes   261 Mbits/sec  56208/54895       845
+[SUM-40] 440.0000-450.0000 sec   313 MBytes   262 Mbits/sec  54399/53032       706
+[SUM-40] 450.0000-460.0000 sec   304 MBytes   255 Mbits/sec  56579/55332       873
+[SUM-40] 460.0000-470.0000 sec   315 MBytes   264 Mbits/sec  57063/55731       734
+[SUM-40] 470.0000-480.0000 sec   302 MBytes   253 Mbits/sec  58176/56975       797
+[SUM-40] 480.0000-490.0000 sec   310 MBytes   260 Mbits/sec  60664/59464       889
+[SUM-40] 490.0000-500.0000 sec   309 MBytes   259 Mbits/sec  57036/55766       789
+[SUM-40] 500.0000-510.0000 sec   315 MBytes   264 Mbits/sec  55643/54285       882
+[SUM-40] 510.0000-520.0000 sec   312 MBytes   262 Mbits/sec  57178/55873       698
+[SUM-40] 520.0000-530.0000 sec   301 MBytes   253 Mbits/sec  55897/54667       957
+[SUM-40] 530.0000-540.0000 sec   293 MBytes   246 Mbits/sec  56211/55039       772
+[SUM-40] 540.0000-550.0000 sec   291 MBytes   244 Mbits/sec  55191/54025       884
+[SUM-40] 550.0000-560.0000 sec   294 MBytes   247 Mbits/sec  54618/53412       824
+[SUM-40] 560.0000-570.0000 sec   286 MBytes   240 Mbits/sec  55545/54427       814
+[SUM-40] 570.0000-580.0000 sec   289 MBytes   243 Mbits/sec  56313/55181       910
+[SUM-40] 580.0000-590.0000 sec   289 MBytes   243 Mbits/sec  55171/54008       789
+[SUM-40] 590.0000-600.0000 sec   286 MBytes   240 Mbits/sec  51699/50491       856
+[SUM-40] 600.0000-610.0000 sec   289 MBytes   242 Mbits/sec  52807/51594       746
+[SUM-40] 610.0000-620.0000 sec   288 MBytes   242 Mbits/sec  51704/50484       932
+[SUM-40] 620.0000-630.0000 sec   289 MBytes   243 Mbits/sec  54962/53803       833
+[SUM-40] 630.0000-640.0000 sec   289 MBytes   242 Mbits/sec  54933/53775       886
+[SUM-40] 640.0000-650.0000 sec   289 MBytes   243 Mbits/sec  53765/52568       843
+[SUM-40] 650.0000-660.0000 sec   288 MBytes   241 Mbits/sec  53698/52527       784
+[SUM-40] 660.0000-670.0000 sec   293 MBytes   246 Mbits/sec  51866/50607       841
+[SUM-40] 670.0000-680.0000 sec   284 MBytes   238 Mbits/sec  51039/49831       899
+[SUM-40] 680.0000-690.0000 sec   292 MBytes   245 Mbits/sec  54889/53703       803
+[SUM-40] 690.0000-700.0000 sec   285 MBytes   239 Mbits/sec  51663/50464       895
+[SUM-40] 700.0000-710.0000 sec   291 MBytes   244 Mbits/sec  54399/53200       910
+[SUM-40] 710.0000-720.0000 sec   287 MBytes   241 Mbits/sec  57302/56220       822
+[SUM-40] 720.0000-730.0000 sec   293 MBytes   245 Mbits/sec  53587/52372       911
+[SUM-40] 730.0000-740.0000 sec   276 MBytes   232 Mbits/sec  52686/51586       925
+[SUM-40] 740.0000-750.0000 sec   254 MBytes   213 Mbits/sec  48793/47787       819
+[SUM-40] 750.0000-760.0000 sec   279 MBytes   234 Mbits/sec  50900/49738       766
+[SUM-40] 760.0000-770.0000 sec   291 MBytes   244 Mbits/sec  53930/52737       829
+[SUM-40] 770.0000-780.0000 sec   291 MBytes   244 Mbits/sec  54590/53416       762
+[SUM-40] 780.0000-790.0000 sec   290 MBytes   244 Mbits/sec  50679/49415       694
+[SUM-40] 790.0000-800.0000 sec   288 MBytes   242 Mbits/sec  51114/49878       937
+[SUM-40] 800.0000-810.0000 sec   288 MBytes   242 Mbits/sec  50363/49112       756
+[SUM-40] 810.0000-820.0000 sec   287 MBytes   241 Mbits/sec  52521/51328       909
+[SUM-40] 820.0000-830.0000 sec   286 MBytes   240 Mbits/sec  54626/53479       763
+[SUM-40] 830.0000-840.0000 sec   292 MBytes   245 Mbits/sec  53956/52744       753
+[SUM-40] 840.0000-850.0000 sec   286 MBytes   240 Mbits/sec  49327/48068       859
+[SUM-40] 850.0000-860.0000 sec   289 MBytes   243 Mbits/sec  57347/56228       830
+[SUM-40] 860.0000-870.0000 sec   287 MBytes   241 Mbits/sec  51486/50265       857
+[SUM-40] 870.0000-880.0000 sec   285 MBytes   239 Mbits/sec  49900/48661       663
+[SUM-40] 880.0000-890.0000 sec   286 MBytes   240 Mbits/sec  51824/50623       901
+[SUM-40] 890.0000-900.0000 sec   285 MBytes   239 Mbits/sec  51951/50765       748
+[SUM-40] 0.0000-902.1082 sec  27.0 GBytes   257 Mbits/sec  5092728/2905     74987

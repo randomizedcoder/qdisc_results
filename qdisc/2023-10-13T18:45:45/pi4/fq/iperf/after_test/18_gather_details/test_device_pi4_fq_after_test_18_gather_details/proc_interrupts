@@ -1,0 +1,27 @@
+           CPU0       CPU1       CPU2       CPU3       
+  9:          0          0          0          0     GICv2  25 Level     vgic
+ 11:     202802      17002      14503      17275     GICv2  30 Level     arch_timer
+ 12:          0          0          0          0     GICv2  27 Level     kvm guest vtimer
+ 14:        657          0          0          0     GICv2  65 Level     fe00b880.mailbox
+ 15:        451          0          0          0     GICv2 114 Level     DMA IRQ
+ 23:          0          0          0          0     GICv2  48 Level     arm-pmu
+ 24:          0          0          0          0     GICv2  49 Level     arm-pmu
+ 25:          0          0          0          0     GICv2  50 Level     arm-pmu
+ 26:          0          0          0          0     GICv2  51 Level     arm-pmu
+ 30:    4894457          0          0          0     GICv2 189 Level     eth0
+ 31:    2091494          0          0          0     GICv2 190 Level     eth0
+ 33:     239476          0          0          0  BRCM STB PCIe MSI 524288 Edge      xhci_hcd
+ 34:         69          0          0          0     GICv2  66 Level     VCHIQ doorbell
+ 35:       7417          0          0          0     GICv2 153 Level     uart-pl011
+ 37:      27612          0          0          0     GICv2 158 Level     mmc1, mmc0
+ 38:          0          0          0          0     GICv2 130 Level     feb10000.codec
+ 39:          0          0          0          0     GICv2 106 Level     v3d
+ 40:      29422          0          0          0     GICv2 144 Level     vc4 firmware kms
+IPI0:      1385       2227       4679       1717       Rescheduling interrupts
+IPI1:      9031      69531      18751      17316       Function call interrupts
+IPI2:         0          0          0          0       CPU stop interrupts
+IPI3:         0          0          0          0       CPU stop (for crash dump) interrupts
+IPI4:         0          0          0          0       Timer broadcast interrupts
+IPI5:       589         28         26         30       IRQ work interrupts
+IPI6:         0          0          0          0       CPU wake-up interrupts
+Err:          0

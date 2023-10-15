@@ -1,0 +1,54 @@
+asus-cn60-2 | CHANGED => {
+    "changed": true,
+    "rc": 0,
+    "stderr": "Shared connection to 172.16.40.60 closed.\r\n",
+    "stderr_lines": [
+        "Shared connection to 172.16.40.60 closed."
+    ],
+    "stdout": "output_folder:/tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/\r\ndefault_route_interface:enp1s0\r\nstart_dir:/home/das\r\nmy_hostname:asus-cn60-2\r\ncommand:sudo sh -c 'rm -rf /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/'\r\ncommand:sudo sh -c 'mkdir /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/'\r\ncommand:sudo sh -c 'cd /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/'\r\ncommand:sudo sh -c 'cat /proc/interrupts > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/proc_interrupts'\r\ncommand:sudo sh -c 'cat /proc/net/dev  > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/proc_net_dev'\r\ncommand:sudo sh -c 'netstat --statistics --tcp > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/netstat_statistics'\r\ncommand:sudo sh -c 'ethtool enp1s0 > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/ethtool_enp1s0'\r\ncommand:sudo sh -c 'ethtool --phy-statistics enp1s0 > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/ethtool_phy_statistics_enp1s0'\r\nno stats available\r\ncommand:sudo sh -c 'ethtool --statistics enp1s0 > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/ethtool_statistics_enp1s0'\r\ncommand:sudo sh -c 'ip -statistics link show > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/ip_link_show'\r\ncommand:sudo sh -c 'ip -statistics addr show > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/ip_addr_show'\r\nchown --recursive das:das /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/\r\nls -la /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/\r\ntotal 36\r\ndrwxr-xr-x  2 das  das  4096 Oct 14 07:01 .\r\ndrwxrwxrwt 17 root root 4096 Oct 14 07:01 ..\r\n-rw-r--r--  1 das  das  1145 Oct 14 07:01 ethtool_enp1s0\r\n-rw-r--r--  1 das  das     0 Oct 14 07:01 ethtool_phy_statistics_enp1s0\r\n-rw-r--r--  1 das  das   309 Oct 14 07:01 ethtool_statistics_enp1s0\r\n-rw-r--r--  1 das  das  1570 Oct 14 07:01 ip_addr_show\r\n-rw-r--r--  1 das  das  1221 Oct 14 07:01 ip_link_show\r\n-rw-r--r--  1 das  das   945 Oct 14 07:01 netstat_statistics\r\n-rw-r--r--  1 das  das  1872 Oct 14 07:01 proc_interrupts\r\n-rw-r--r--  1 das  das   581 Oct 14 07:01 proc_net_dev\r\n",
+    "stdout_lines": [
+        "output_folder:/tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/",
+        "default_route_interface:enp1s0",
+        "start_dir:/home/das",
+        "my_hostname:asus-cn60-2",
+        "command:sudo sh -c 'rm -rf /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/'",
+        "command:sudo sh -c 'mkdir /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/'",
+        "command:sudo sh -c 'cd /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/'",
+        "command:sudo sh -c 'cat /proc/interrupts > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/proc_interrupts'",
+        "command:sudo sh -c 'cat /proc/net/dev  > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/proc_net_dev'",
+        "command:sudo sh -c 'netstat --statistics --tcp > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/netstat_statistics'",
+        "command:sudo sh -c 'ethtool enp1s0 > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/ethtool_enp1s0'",
+        "command:sudo sh -c 'ethtool --phy-statistics enp1s0 > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/ethtool_phy_statistics_enp1s0'",
+        "no stats available",
+        "command:sudo sh -c 'ethtool --statistics enp1s0 > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/ethtool_statistics_enp1s0'",
+        "command:sudo sh -c 'ip -statistics link show > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/ip_link_show'",
+        "command:sudo sh -c 'ip -statistics addr show > /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/ip_addr_show'",
+        "chown --recursive das:das /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/",
+        "ls -la /tmp/test_device_asus-cn60-2_noqueue_after_test_18_gather_details/",
+        "total 36",
+        "drwxr-xr-x  2 das  das  4096 Oct 14 07:01 .",
+        "drwxrwxrwt 17 root root 4096 Oct 14 07:01 ..",
+        "-rw-r--r--  1 das  das  1145 Oct 14 07:01 ethtool_enp1s0",
+        "-rw-r--r--  1 das  das     0 Oct 14 07:01 ethtool_phy_statistics_enp1s0",
+        "-rw-r--r--  1 das  das   309 Oct 14 07:01 ethtool_statistics_enp1s0",
+        "-rw-r--r--  1 das  das  1570 Oct 14 07:01 ip_addr_show",
+        "-rw-r--r--  1 das  das  1221 Oct 14 07:01 ip_link_show",
+        "-rw-r--r--  1 das  das   945 Oct 14 07:01 netstat_statistics",
+        "-rw-r--r--  1 das  das  1872 Oct 14 07:01 proc_interrupts",
+        "-rw-r--r--  1 das  das   581 Oct 14 07:01 proc_net_dev"
+    ]
+}
+receiving incremental file list
+created directory /tmp/qdisc/2023-10-13T18:45:45/asus-cn60-2/noqueue/iperf/after_test/18_gather_details/test_device_asus-cn60-2_noqueue_after_test_18_gather_details
+./
+ethtool_enp1s0
+ethtool_phy_statistics_enp1s0
+ethtool_statistics_enp1s0
+ip_addr_show
+ip_link_show
+netstat_statistics
+proc_interrupts
+proc_net_dev
+
+sent 179 bytes  received 3,099 bytes  6,556.00 bytes/sec
+total size is 7,643  speedup is 2.33

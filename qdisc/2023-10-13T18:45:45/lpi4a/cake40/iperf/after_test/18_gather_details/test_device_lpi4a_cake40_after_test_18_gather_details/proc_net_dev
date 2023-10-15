@@ -1,0 +1,10 @@
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   49719     973    0    0    0     0          0         0    49719     973    0    0    0     0       0          0
+dummy0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ip_vti0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+  sit0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+  end0: 17879437095 16379704    0    0    0     0          0         0 17874271351 16365319    0    0    0     0       0          0
+ wlan0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+  p2p0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+  end1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0

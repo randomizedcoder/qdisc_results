@@ -1,0 +1,4 @@
+jetson-nano | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
