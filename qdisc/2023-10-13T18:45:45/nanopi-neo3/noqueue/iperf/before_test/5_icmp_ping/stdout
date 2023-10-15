@@ -1,0 +1,8 @@
+PING 172.20.51.10 (172.20.51.10) 56(84) bytes of data.
+64 bytes from 172.20.51.10: icmp_seq=1 ttl=63 time=84.0 ms
+64 bytes from 172.20.51.10: icmp_seq=2 ttl=63 time=42.2 ms
+64 bytes from 172.20.51.10: icmp_seq=3 ttl=63 time=42.2 ms
+
+--- 172.20.51.10 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 42.194/56.152/84.022/19.706 ms

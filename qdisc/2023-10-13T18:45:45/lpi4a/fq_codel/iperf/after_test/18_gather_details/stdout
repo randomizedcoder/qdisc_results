@@ -1,0 +1,54 @@
+lpi4a | CHANGED => {
+    "changed": true,
+    "rc": 0,
+    "stderr": "Shared connection to 172.16.40.63 closed.\r\n",
+    "stderr_lines": [
+        "Shared connection to 172.16.40.63 closed."
+    ],
+    "stdout": "output_folder:/tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/\r\ndefault_route_interface:end0\r\nstart_dir:/home/das\r\nmy_hostname:lpi4a\r\ncommand:sudo sh -c 'rm -rf /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/'\r\ncommand:sudo sh -c 'mkdir /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/'\r\ncommand:sudo sh -c 'cd /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/'\r\ncommand:sudo sh -c 'cat /proc/interrupts > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/proc_interrupts'\r\ncommand:sudo sh -c 'cat /proc/net/dev  > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/proc_net_dev'\r\ncommand:sudo sh -c 'netstat --statistics --tcp > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/netstat_statistics'\r\ncommand:sudo sh -c 'ethtool end0 > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/ethtool_end0'\r\ncommand:sudo sh -c 'ethtool --phy-statistics end0 > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/ethtool_phy_statistics_end0'\r\nno stats available\r\ncommand:sudo sh -c 'ethtool --statistics end0 > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/ethtool_statistics_end0'\r\ncommand:sudo sh -c 'ip -statistics link show > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/ip_link_show'\r\ncommand:sudo sh -c 'ip -statistics addr show > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/ip_addr_show'\r\nchown --recursive das:das /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/\r\nls -la /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/\r\ntotal 40\r\ndrwxr-xr-x  2 das  das  4096 Oct 14 09:31 .\r\ndrwxrwxrwt 17 root root 4096 Oct 14 09:31 ..\r\n-rw-r--r--  1 das  das  1250 Oct 14 09:31 ethtool_end0\r\n-rw-r--r--  1 das  das     0 Oct 14 09:31 ethtool_phy_statistics_end0\r\n-rw-r--r--  1 das  das  5696 Oct 14 09:31 ethtool_statistics_end0\r\n-rw-r--r--  1 das  das  3499 Oct 14 09:31 ip_addr_show\r\n-rw-r--r--  1 das  das  3200 Oct 14 09:31 ip_link_show\r\n-rw-r--r--  1 das  das  1179 Oct 14 09:31 netstat_statistics\r\n-rw-r--r--  1 das  das  3005 Oct 14 09:31 proc_interrupts\r\n-rw-r--r--  1 das  das  1190 Oct 14 09:31 proc_net_dev\r\n",
+    "stdout_lines": [
+        "output_folder:/tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/",
+        "default_route_interface:end0",
+        "start_dir:/home/das",
+        "my_hostname:lpi4a",
+        "command:sudo sh -c 'rm -rf /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/'",
+        "command:sudo sh -c 'mkdir /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/'",
+        "command:sudo sh -c 'cd /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/'",
+        "command:sudo sh -c 'cat /proc/interrupts > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/proc_interrupts'",
+        "command:sudo sh -c 'cat /proc/net/dev  > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/proc_net_dev'",
+        "command:sudo sh -c 'netstat --statistics --tcp > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/netstat_statistics'",
+        "command:sudo sh -c 'ethtool end0 > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/ethtool_end0'",
+        "command:sudo sh -c 'ethtool --phy-statistics end0 > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/ethtool_phy_statistics_end0'",
+        "no stats available",
+        "command:sudo sh -c 'ethtool --statistics end0 > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/ethtool_statistics_end0'",
+        "command:sudo sh -c 'ip -statistics link show > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/ip_link_show'",
+        "command:sudo sh -c 'ip -statistics addr show > /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/ip_addr_show'",
+        "chown --recursive das:das /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/",
+        "ls -la /tmp/test_device_lpi4a_fq_codel_after_test_18_gather_details/",
+        "total 40",
+        "drwxr-xr-x  2 das  das  4096 Oct 14 09:31 .",
+        "drwxrwxrwt 17 root root 4096 Oct 14 09:31 ..",
+        "-rw-r--r--  1 das  das  1250 Oct 14 09:31 ethtool_end0",
+        "-rw-r--r--  1 das  das     0 Oct 14 09:31 ethtool_phy_statistics_end0",
+        "-rw-r--r--  1 das  das  5696 Oct 14 09:31 ethtool_statistics_end0",
+        "-rw-r--r--  1 das  das  3499 Oct 14 09:31 ip_addr_show",
+        "-rw-r--r--  1 das  das  3200 Oct 14 09:31 ip_link_show",
+        "-rw-r--r--  1 das  das  1179 Oct 14 09:31 netstat_statistics",
+        "-rw-r--r--  1 das  das  3005 Oct 14 09:31 proc_interrupts",
+        "-rw-r--r--  1 das  das  1190 Oct 14 09:31 proc_net_dev"
+    ]
+}
+receiving incremental file list
+created directory /tmp/qdisc/2023-10-13T18:45:45/lpi4a/fq_codel/iperf/after_test/18_gather_details/test_device_lpi4a_fq_codel_after_test_18_gather_details
+./
+ethtool_end0
+ethtool_phy_statistics_end0
+ethtool_statistics_end0
+ip_addr_show
+ip_link_show
+netstat_statistics
+proc_interrupts
+proc_net_dev
+
+sent 179 bytes  received 4,954 bytes  10,266.00 bytes/sec
+total size is 19,019  speedup is 3.71

@@ -1,0 +1,29 @@
+['GigabitEthernet1/0/36 is up, line protocol is up (connected) 
+  Hardware is Gigabit Ethernet, address is a0ec.f969.80a4 (bia a0ec.f969.80a4)
+  Description: 3rd
+  MTU 9198 bytes, BW 1000000 Kbit/sec, DLY 10 usec, 
+     reliability 255/255, txload 59/255, rxload 69/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full-duplex, 1000Mb/s, media type is 10/100/1000BaseTX
+  input flow-control is off, output flow-control is unsupported 
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 00:20:38
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  30 second input rate 272142000 bits/sec, 28301 packets/sec
+  30 second output rate 233327000 bits/sec, 25833 packets/sec
+     54602076 packets input, 64530845236 bytes, 0 no buffer
+     Received 62 broadcasts (62 multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 62 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     51874586 packets output, 57946068783 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 unknown protocol drops
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out']

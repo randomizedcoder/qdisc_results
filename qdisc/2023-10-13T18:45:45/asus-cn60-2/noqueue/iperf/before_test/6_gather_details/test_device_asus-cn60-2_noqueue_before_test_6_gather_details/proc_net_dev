@@ -1,0 +1,5 @@
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   14668     192    0    0    0     0          0         0    14668     192    0    0    0     0       0          0
+enp1s0:  401651     600    0    4    0     0          0        16    84355     769    0    0    0     0       0          0
+wlp2s0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0

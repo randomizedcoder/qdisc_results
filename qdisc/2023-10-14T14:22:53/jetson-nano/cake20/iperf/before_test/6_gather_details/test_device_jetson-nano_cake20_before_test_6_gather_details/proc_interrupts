@@ -1,0 +1,52 @@
+           CPU0       CPU1       CPU2       CPU3       
+  9:          0          0          0          0     GICv2  25 Level     vgic
+ 10:       9655          0          0          0       LIC 176 Level     tegra_timer
+ 11:          0       9080          0          0       LIC 177 Level     tegra_timer
+ 12:          0          0       8469          0       LIC 178 Level     tegra_timer
+ 13:          0          0          0       8646       LIC 179 Level     tegra_timer
+ 15:          0          0          0          0     GICv2  30 Level     arch_timer
+ 16:          0          0          0          0     GICv2  27 Level     kvm guest vtimer
+ 18:          0          0          0          0       LIC  77 Level     70019000.memory-controller
+ 19:          0          0          0          0       LIC 144 Level     arm-pmu
+ 20:          0          0          0          0       LIC 145 Level     arm-pmu
+ 21:          0          0          0          0       LIC 146 Level     arm-pmu
+ 22:          0          0          0          0       LIC 147 Level     arm-pmu
+ 31:          8          0          0          0       LIC  36 Level     ttyS0
+ 32:          4          0          0          0       LIC  92 Level     7000c500.i2c
+ 33:        208          0          0         75       LIC  53 Level     7000d000.i2c
+ 34:          0          0          0          0  7000e400.pmc  51 Level     max77620-top
+ 35:          0          0          0          0  max77620-top   3 Edge      max77620-gpio
+ 40:          0          0          0          0       LIC  65 Level     host1x_syncpt
+ 41:          0          0          0          0 6000d000.gpio 189 Edge      Power
+ 42:          0          0          0          0 6000d000.gpio 190 Edge      Force Recovery
+ 43:          0          0          0          0       LIC  17 Level     546c0000.i2c
+ 44:          0          0          0          0  7000e400.pmc  16 Level     7000e000.rtc
+ 46:          2          0          0          0       LIC  98 Level     PCIE, PCIe PME, aerdrv
+ 48:      10810          0          0          0       LIC  14 Level     mmc0
+ 49:         52          0          0          0       LIC  19 Level     mmc1
+ 51:         35          0          0          0       LIC  39 Level     xhci-hcd:usb1
+ 52:          2          0          0          0       LIC  40 Level     70090000.usb
+ 53:          0          0          0          0       LIC  49 Level     70090000.usb
+ 54:          0          0          0          0 6000d000.gpio 201 Edge      700b0000.mmc cd
+ 55:          0          0          0          0       LIC  73 Level     54200000.dc
+ 56:          0          0          0          0       LIC  74 Level     54240000.dc
+ 57:          0          0          0          0       LIC  11 Level     54040000.dpaux
+ 58:          0          0          0          0       LIC 159 Level     545c0000.dpaux
+ 59:          0          0          0          0       LIC  76 Level     54540000.sor
+ 60:        855          0          0          0  Tegra PCIe MSI 524288 Edge      eth0
+ 61:          0          0          0          0       LIC 120 Level     7000c700.i2c
+ 62:          0          0          0          0 6000d000.gpio 225 Edge      hpd
+ 63:          0          0          0          0       LIC  75 Level     54580000.sor
+ 64:          0          0          0          0 6000d000.gpio 228 Edge      7009f000.padctl:ports:usb2-0:connector
+ 87:          0          0          0          0       LIC  48 Level     700e2000.thermal-sensor
+ 88:          0          0          0          0       LIC  51 Level     soctherm_edp
+ 89:          0          0          0          0       LIC  44 Level     700d0000.usb
+ 90:         34          0          0          0       LIC  81 Level     snd_hda_tegra
+IPI0:      1662       2870       2639       2166       Rescheduling interrupts
+IPI1:      5623       6513       5867       4141       Function call interrupts
+IPI2:         0          0          0          0       CPU stop interrupts
+IPI3:         0          0          0          0       CPU stop (for crash dump) interrupts
+IPI4:         0          0          0          0       Timer broadcast interrupts
+IPI5:       294        195        317        195       IRQ work interrupts
+IPI6:         0          0          0          0       CPU wake-up interrupts
+Err:          0

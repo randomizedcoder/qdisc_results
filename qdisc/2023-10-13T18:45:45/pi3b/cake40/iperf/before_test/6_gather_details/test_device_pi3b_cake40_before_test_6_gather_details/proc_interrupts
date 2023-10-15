@@ -1,0 +1,24 @@
+           CPU0       CPU1       CPU2       CPU3       
+  2:         33         32         35         31  ARMCTRL-level   1 Edge      3f00b880.mailbox
+  3:         18         12         18         19  ARMCTRL-level   2 Edge      VCHIQ doorbell
+ 51:     137605     136321     137481     136143  ARMCTRL-level  41 Edge      dwc_otg_sim-fiq
+ 52:          0          0          0          0  ARMCTRL-level  42 Edge      vc4
+ 60:         34         61         68         56  ARMCTRL-level  50 Edge      DMA IRQ
+ 62:       1220       1175       1132       1229  ARMCTRL-level  52 Edge      DMA IRQ
+ 74:       2366       3712       2512       3730  ARMCTRL-level  64 Edge      dwc_otg, dwc_otg_pcd, dwc_otg_hcd:usb1
+ 90:        895        890        926        900  ARMCTRL-level  80 Edge      vc4 firmware kms
+ 98:         40         38         52         41  ARMCTRL-level  88 Edge      mmc0
+ 99:       1115       1118       1021       1101  ARMCTRL-level  89 Edge      uart-pl011
+104:       1082       1024       1166       1143  ARMCTRL-level  94 Edge      mmc1
+180:      10996      13872      11806      13888  bcm2836-timer   1 Edge      arch_timer
+181:          0          0          0          0  bcm2836-timer   3 Edge      kvm guest vtimer
+183:          0          0          0          0  bcm2836-pmu   9 Edge      arm-pmu
+184:          0          0          1          0  smsc95xx   0 Edge    -phy       usb-001:003:01
+IPI0:      1263        944        664        881       Rescheduling interrupts
+IPI1:      8814       6598       8292       9097       Function call interrupts
+IPI2:         0          0          0          0       CPU stop interrupts
+IPI3:         0          0          0          0       CPU stop (for crash dump) interrupts
+IPI4:         0          0          0          0       Timer broadcast interrupts
+IPI5:        29         26         36         33       IRQ work interrupts
+IPI6:         0          0          0          0       CPU wake-up interrupts
+Err:          0
