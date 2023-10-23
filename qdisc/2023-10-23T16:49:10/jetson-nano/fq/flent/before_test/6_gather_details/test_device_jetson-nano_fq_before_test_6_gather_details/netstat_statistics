@@ -1,0 +1,27 @@
+Tcp:
+    9 active connection openings
+    1 passive connection openings
+    9 failed connection attempts
+    0 connection resets received
+    1 connections established
+    386 segments received
+    396 segments sent out
+    0 segments retransmitted
+    0 bad segments received
+    9 resets sent
+UdpLite:
+TcpExt:
+    6 delayed acks sent
+    56 packet headers predicted
+    1 acknowledgments not containing data payload received
+    321 predicted acknowledgments
+    TCPAutoCorking: 3
+    TCPOrigDataSent: 346
+    TCPDelivered: 346
+IpExt:
+    InMcastPkts: 1
+    InOctets: 118691
+    OutOctets: 48884
+    InMcastOctets: 36
+    InNoECTPkts: 490
+MPTcpExt:
