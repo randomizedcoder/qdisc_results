@@ -1,0 +1,9 @@
+
+PLAY [Cisco clear counters interface] ******************************************
+
+TASK [clear counters interface] ************************************************
+ok: [3750x]
+
+PLAY RECAP *********************************************************************
+3750x                      : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+

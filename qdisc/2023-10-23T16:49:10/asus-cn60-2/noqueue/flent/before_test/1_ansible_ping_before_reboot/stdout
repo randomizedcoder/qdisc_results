@@ -1,0 +1,4 @@
+asus-cn60-2 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
