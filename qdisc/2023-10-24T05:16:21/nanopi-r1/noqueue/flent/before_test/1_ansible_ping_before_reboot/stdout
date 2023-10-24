@@ -1,0 +1,4 @@
+nanopi-r1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}

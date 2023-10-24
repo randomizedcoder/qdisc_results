@@ -1,0 +1,46 @@
+Starting Flent 2.1.1+git.7b931915 using Python 3.10.12.
+Starting rrul test. Expected run time: 610 seconds.
+Data file written to /tmp/qdisc/2023-10-24T05:16:21/lpi4a/fq/flent/test/16_flent/rrul-2023-10-24T143308.318721.2023-10-24T05_16_21_lpi4a_fq.flent.gz
+
+Summary of rrul test run from 2023-10-24 14:33:08.318721
+  Title: '2023-10-24T05:16:21_lpi4a_fq'
+
+                                              avg       median       99th %          # data pts
+ Ping (ms) ICMP                    :       166.66        86.00       924.60 ms             2835
+ Ping (ms) UDP BE                  :       165.14        81.33       948.71 ms             3050
+ Ping (ms) UDP BK                  :       165.44        82.39       946.90 ms             3050
+ Ping (ms) UDP EF                  :       166.56        83.78       950.06 ms             3050
+ Ping (ms) avg                     :       165.71          N/A          N/A ms             3050
+ TCP download BE                   :         9.34         9.08        41.89 Mbits/s        3050
+ TCP download BK                   :        10.08         9.11        42.13 Mbits/s        3050
+ TCP download CS5                  :        10.95        10.04        56.19 Mbits/s        3050
+ TCP download EF                   :        10.85        10.81        38.09 Mbits/s        3050
+ TCP download avg                  :        10.30          N/A          N/A Mbits/s        3050
+ TCP download sum                  :        41.22          N/A          N/A Mbits/s        3050
+ TCP totals                        :        89.87          N/A          N/A Mbits/s        3050
+ TCP upload BE                     :        11.13        14.11        47.09 Mbits/s        3050
+ TCP upload BE::tcp_cwnd           :        90.65        84.00       228.00                2788
+ TCP upload BE::tcp_delivery_rate  :        12.04         9.06        41.07                2788
+ TCP upload BE::tcp_pacing_rate    :        17.67        15.81        56.93                2788
+ TCP upload BE::tcp_rtt            :       125.43        71.83       716.80                2781
+ TCP upload BE::tcp_rtt_var        :        23.70         5.63       181.72                2781
+ TCP upload BK                     :        12.20        14.90        70.35 Mbits/s        3050
+ TCP upload BK::tcp_cwnd           :        98.35        88.00       274.00                2788
+ TCP upload BK::tcp_delivery_rate  :        13.27         9.81        50.06                2788
+ TCP upload BK::tcp_pacing_rate    :        19.25        16.14        65.67                2788
+ TCP upload BK::tcp_rtt            :       126.08        71.23       738.57                2784
+ TCP upload BK::tcp_rtt_var        :        22.90         5.01       179.45                2784
+ TCP upload CS5                    :        12.02        13.40        76.39 Mbits/s        3050
+ TCP upload CS5::tcp_cwnd          :        98.67        90.00       282.26                2788
+ TCP upload CS5::tcp_delivery_rate :        13.06        10.25        57.65                2788
+ TCP upload CS5::tcp_pacing_rate   :        19.18        16.55        72.59                2788
+ TCP upload CS5::tcp_rtt           :       125.71        71.45       717.04                2786
+ TCP upload CS5::tcp_rtt_var       :        22.01         4.61       192.72                2786
+ TCP upload EF                     :        13.30        16.37        82.54 Mbits/s        3050
+ TCP upload EF::tcp_cwnd           :       102.40        85.50       358.13                2788
+ TCP upload EF::tcp_delivery_rate  :        14.45         9.83        66.93                2788
+ TCP upload EF::tcp_pacing_rate    :        20.69        16.51        85.69                2788
+ TCP upload EF::tcp_rtt            :       125.59        70.99       759.57                2783
+ TCP upload EF::tcp_rtt_var        :        21.99         4.94       176.59                2783
+ TCP upload avg                    :        12.16          N/A          N/A Mbits/s        3050
+ TCP upload sum                    :        48.65          N/A          N/A Mbits/s        3050

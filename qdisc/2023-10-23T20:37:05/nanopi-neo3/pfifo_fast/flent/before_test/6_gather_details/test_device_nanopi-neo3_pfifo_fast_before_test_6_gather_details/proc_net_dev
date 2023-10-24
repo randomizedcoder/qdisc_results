@@ -1,0 +1,4 @@
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:     900      18    0    0    0     0          0         0      900      18    0    0    0     0       0          0
+  end0:  122739     460    0    0    0     0          0         0    58071     499    0    0    0     0       0          0

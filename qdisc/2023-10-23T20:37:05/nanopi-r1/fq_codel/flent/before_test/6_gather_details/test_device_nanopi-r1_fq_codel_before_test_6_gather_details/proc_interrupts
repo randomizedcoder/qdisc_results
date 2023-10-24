@@ -1,0 +1,37 @@
+           CPU0       CPU1       CPU2       CPU3       
+ 25:          0          0          0          0     GICv2  50 Level     timer@1c20c00
+ 26:          0          0          0          0     GICv2  29 Level     arch_timer
+ 27:      14540      13085      11648      11098     GICv2  30 Level     arch_timer
+ 30:          0          0          0          0     GICv2 152 Level     arm-pmu
+ 31:          0          0          0          0     GICv2 153 Level     arm-pmu
+ 32:          0          0          0          0     GICv2 154 Level     arm-pmu
+ 33:          0          0          0          0     GICv2 155 Level     arm-pmu
+ 34:          0          0          0          0     GICv2  82 Level     1c02000.dma-controller
+ 35:          0          0          0          0     GICv2 104 Level     ehci_hcd:usb1
+ 36:          0          0          0          0     GICv2 105 Level     ohci_hcd:usb2
+ 37:          0          0          0          0  sun6i-r-intc  40 Level     1f00000.rtc
+ 84:          1          0          0          0  sunxi_pio_edge  44 Edge      usb0-id-det
+108:          1          0          0          0  sunxi_pio_edge   3 Edge      k1
+138:        408          0          0          0     GICv2  33 Level     ttyS1
+139:       1110          0          0          0     GICv2  35 Level     ttyS2
+140:       7396          0          0          0     GICv2  92 Level     sunxi-mmc
+141:      42499          0          0          0     GICv2  93 Level     sunxi-mmc
+142:         10          0          0          0     GICv2  94 Level     sunxi-mmc
+143:        458       1097          0          0     GICv2 106 Level     ehci_hcd:usb3
+144:          0          0          0          0     GICv2 108 Level     ehci_hcd:usb4
+145:          0          0          0          0     GICv2 110 Level     ehci_hcd:usb5
+146:          0          0          0          0     GICv2 107 Level     ohci_hcd:usb6
+147:          0          0          0          0     GICv2 109 Level     ohci_hcd:usb7
+148:          0          0          0          0     GICv2 111 Level     ohci_hcd:usb8
+149:          0          0          0          0     GICv2 103 Level     musb-hdrc.2.auto
+150:        463          0          0          0     GICv2 114 Level     end0
+151:        218          0          0          0     GICv2  63 Level     ths
+152:          0          0          0          0     GICv2  90 Level     1c0e000.video-codec
+IPI0:          0          0          0          0  CPU wakeup interrupts
+IPI1:          0          0          0          0  Timer broadcast interrupts
+IPI2:       1141       3224       3549       2466  Rescheduling interrupts
+IPI3:       6984      22548      21051      25626  Function call interrupts
+IPI4:          0          0          0          0  CPU stop interrupts
+IPI5:        487        555        416        226  IRQ work interrupts
+IPI6:          0          0          0          0  completion interrupts
+Err:          0

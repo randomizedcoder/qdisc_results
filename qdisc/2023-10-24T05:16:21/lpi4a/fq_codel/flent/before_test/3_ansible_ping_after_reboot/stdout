@@ -1,0 +1,4 @@
+lpi4a | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}

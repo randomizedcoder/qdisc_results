@@ -1,0 +1,5 @@
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:   34900     698    0    0    0     0          0         0    34900     698    0    0    0     0       0          0
+enxb827eb7039cb: 6923302989 6888389    0    0    0     0          0         0 7071997449 6883647    0    0    0     0       0          0
+ wlan0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
