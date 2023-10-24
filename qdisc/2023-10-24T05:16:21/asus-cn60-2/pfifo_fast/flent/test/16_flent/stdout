@@ -1,0 +1,46 @@
+Starting Flent 2.1.1+git.7b931915 using Python 3.10.12.
+Starting rrul test. Expected run time: 610 seconds.
+Data file written to /tmp/qdisc/2023-10-24T05:16:21/asus-cn60-2/pfifo_fast/flent/test/16_flent/rrul-2023-10-24T131554.452723.2023-10-24T05_16_21_asus-cn60-2_pfifo_fast.flent.gz
+
+Summary of rrul test run from 2023-10-24 13:15:54.452723
+  Title: '2023-10-24T05:16:21_asus-cn60-2_pfifo_fast'
+
+                                              avg       median       99th %          # data pts
+ Ping (ms) ICMP                    :        42.30        42.30        44.10 ms             3046
+ Ping (ms) UDP BE                  :        42.48        42.50        44.40 ms             3050
+ Ping (ms) UDP BK                  :        42.50        42.52        44.45 ms             3050
+ Ping (ms) UDP EF                  :        42.74        42.57        50.71 ms             3050
+ Ping (ms) avg                     :        42.57          N/A          N/A ms             3050
+ TCP download BE                   :        83.47        77.56       181.56 Mbits/s        3050
+ TCP download BK                   :        77.03        73.59       175.93 Mbits/s        3050
+ TCP download CS5                  :        84.10        73.12       264.82 Mbits/s        3050
+ TCP download EF                   :        84.72        79.22       207.93 Mbits/s        3050
+ TCP download avg                  :        82.33          N/A          N/A Mbits/s        3050
+ TCP download sum                  :       329.32          N/A          N/A Mbits/s        3050
+ TCP totals                        :       808.69          N/A          N/A Mbits/s        3050
+ TCP upload BE                     :       132.25       129.47       283.07 Mbits/s        3050
+ TCP upload BE::tcp_cwnd           :       490.51       473.00       983.93                2802
+ TCP upload BE::tcp_delivery_rate  :       131.84       126.63       259.46                2802
+ TCP upload BE::tcp_pacing_rate    :       161.40       154.35       341.58                2802
+ TCP upload BE::tcp_rtt            :        42.46        42.46        44.51                2797
+ TCP upload BE::tcp_rtt_var        :         0.23         0.17         0.97                2797
+ TCP upload BK                     :       112.29        97.95       336.71 Mbits/s        3050
+ TCP upload BK::tcp_cwnd           :       417.43       362.00      1289.98                2802
+ TCP upload BK::tcp_delivery_rate  :       112.04        96.99       342.01                2802
+ TCP upload BK::tcp_pacing_rate    :       137.24       118.42       415.62                2802
+ TCP upload BK::tcp_rtt            :        42.46        42.44        44.61                2801
+ TCP upload BK::tcp_rtt_var        :         0.22         0.16         1.11                2801
+ TCP upload CS5                    :       114.39       112.69       247.76 Mbits/s        3050
+ TCP upload CS5::tcp_cwnd          :       425.45       396.00       950.96                2802
+ TCP upload CS5::tcp_delivery_rate :       114.14       105.87       252.21                2802
+ TCP upload CS5::tcp_pacing_rate   :       139.79       129.16       310.59                2802
+ TCP upload CS5::tcp_rtt           :        42.46        42.46        44.66                2800
+ TCP upload CS5::tcp_rtt_var       :         0.22         0.17         1.02                2800
+ TCP upload EF                     :       120.44       107.67       281.49 Mbits/s        3050
+ TCP upload EF::tcp_cwnd           :       448.76       391.50      1059.92                2802
+ TCP upload EF::tcp_delivery_rate  :       120.10       105.38       281.77                2802
+ TCP upload EF::tcp_pacing_rate    :       146.89       128.54       346.75                2802
+ TCP upload EF::tcp_rtt            :        42.63        42.44        50.35                2800
+ TCP upload EF::tcp_rtt_var        :         0.22         0.16         0.94                2800
+ TCP upload avg                    :       119.84          N/A          N/A Mbits/s        3050
+ TCP upload sum                    :       479.37          N/A          N/A Mbits/s        3050

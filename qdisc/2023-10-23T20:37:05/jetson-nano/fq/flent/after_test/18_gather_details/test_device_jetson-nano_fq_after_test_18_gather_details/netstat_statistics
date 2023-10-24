@@ -1,0 +1,29 @@
+IcmpMsg:
+    InType8: 20
+    OutType0: 20
+Tcp:
+    199 active connection openings
+    1 passive connection openings
+    199 failed connection attempts
+    0 connection resets received
+    1 connections established
+    992 segments received
+    966 segments sent out
+    0 segments retransmitted
+    0 bad segments received
+    199 resets sent
+UdpLite:
+TcpExt:
+    8 delayed acks sent
+    77 packet headers predicted
+    2 acknowledgments not containing data payload received
+    494 predicted acknowledgments
+    TCPOrigDataSent: 526
+    TCPDelivered: 526
+IpExt:
+    InMcastPkts: 27
+    InOctets: 162449
+    OutOctets: 96826
+    InMcastOctets: 972
+    InNoECTPkts: 1211
+MPTcpExt:

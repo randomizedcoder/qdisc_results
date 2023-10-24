@@ -1,0 +1,12 @@
+
+PLAY [show interface capture] **************************************************
+
+TASK [show interface] **********************************************************
+ok: [3750x]
+
+TASK [save output to local directory] ******************************************
+changed: [3750x]
+
+PLAY RECAP *********************************************************************
+3750x                      : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+

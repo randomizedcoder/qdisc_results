@@ -1,0 +1,45 @@
+IcmpMsg:
+    InType8: 38
+    OutType0: 38
+Tcp:
+    363 active connection openings
+    2 passive connection openings
+    362 failed connection attempts
+    0 connection resets received
+    1 connections established
+    1300 segments received
+    1320 segments sent out
+    2 segments retransmitted
+    0 bad segments received
+    362 resets sent
+UdpLite:
+TcpExt:
+    1 TCP sockets finished time wait in fast timer
+    6 delayed acks sent
+    Quick ack mode was activated 5 times
+    141 packet headers predicted
+    6 acknowledgments not containing data payload received
+    424 predicted acknowledgments
+    1 congestion windows recovered without slow start after partial ack
+    TCPTimeouts: 1
+    TCPLossProbes: 2
+    TCPLossProbeRecovery: 1
+    TCPDSACKOldSent: 5
+    TCPDSACKRecv: 1
+    TCPSpuriousRTOs: 1
+    TCPSpuriousRtxHostQueues: 2
+    TCPAutoCorking: 44
+    TCPOrigDataSent: 477
+    TCPDelivered: 478
+    TcpTimeoutRehash: 1
+    TCPDSACKRecvSegs: 1
+IpExt:
+    InMcastPkts: 120
+    OutMcastPkts: 120
+    InBcastPkts: 2
+    InOctets: 206475
+    OutOctets: 116443
+    InMcastOctets: 7839
+    OutMcastOctets: 8153
+    InBcastOctets: 640
+    InNoECTPkts: 1537
